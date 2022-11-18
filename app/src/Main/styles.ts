@@ -10,12 +10,10 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const CategoriesContainer = styled.View`
-  height: 73px;
-  margin-top: 34px;
+  margin-top: 24px;
 `;
 
 export const MenuContainer = styled.View`
-  height: 50px;
   flex: 1;
 `;
 
@@ -26,3 +24,9 @@ export const Footer = styled.View`
 `;
 
 export const FooterContainer = styled.SafeAreaView``;
+
+export const CenteredContainer = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
